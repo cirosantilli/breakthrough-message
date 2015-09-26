@@ -1,0 +1,5 @@
+triangle 11
+---
+  X
+ X X
+XXXXX

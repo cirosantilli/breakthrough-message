@@ -1,0 +1,4 @@
+triangle 2
+---
+ X
+XXX

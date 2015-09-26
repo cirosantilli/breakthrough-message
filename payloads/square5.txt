@@ -1,0 +1,8 @@
+square 101
+---
+XXXXX
+X   X
+X   X
+X   X
+X   X
+XXXXX

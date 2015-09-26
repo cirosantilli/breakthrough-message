@@ -1,0 +1,6 @@
+triangle 100
+---
+   X
+  X X
+ X   X
+XXXXXXX

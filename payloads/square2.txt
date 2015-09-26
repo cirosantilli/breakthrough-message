@@ -1,0 +1,4 @@
+square 10
+---
+XX
+XX

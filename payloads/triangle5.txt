@@ -1,0 +1,7 @@
+triangle 101
+---
+    X
+   X X
+  X   X
+ X     X
+XXXXXXXXX
