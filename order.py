@@ -32,7 +32,8 @@ order = [
 # Astronomy
 
     # TODO Other galaxies.
-    #'andromeda',
-
+    'galaxy',
+    'star',
+    'planet',
     # TODO supernovae and other marking objects in our galaxy.
 ]
