@@ -44,7 +44,7 @@ Every number is written in binary with `0` and `1`, e.g. 5 == `101`. Never like 
 
 #### Negative numbers
 
-TODO
+TODO One option is to prefix them with `0`, like the Atanasoff Berry computer.
 
 #### Fractions
 

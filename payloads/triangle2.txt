@@ -1,4 +1,4 @@
-triangle 2
+triangle 10
 ---
  X
 XXX

@@ -54,7 +54,9 @@ Format: consist of the following parts separated by `---\n`:
 
 -   image
 
-    - a space means `0`, and an `X` means `1`
+    - a space or dot `.` mean `0`, and an `X` means `1`
+    - trailing spaces are not allowed
+    - the dot `.` can only be the last character of a line, to indicate that everything before it is a space
     - if a line is less wide than the widest line, it gets `0` padded to equal the widest line in width
     - lines an columns get zero padded to the next prime width and height
     - newlines are stripped

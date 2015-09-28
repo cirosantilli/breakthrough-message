@@ -32,7 +32,7 @@ order = [
 # Astronomy
 
     # TODO Other galaxies.
-    'andromeda',
+    #'andromeda',
 
     # TODO supernovae and other marking objects in our galaxy.
 ]
