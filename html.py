@@ -69,7 +69,7 @@ img {
 <p>The message is composed of multiple text / image pairs.</p>
 <p>Images will be black / white binary 1 bit per pixel to make it simple for the aliens to understand it.</p>
 <p>Of course, you have the obvious advantage of knowing English to read the text part of the message.</p>
-<p>But we believe that by sending multiple that use the some words multiple times, the aliens will be able to do some string matching and image interpretation, and deduce what some of the words mean.</p>
+<p>But we believe that by sending multiple sentences that use the words multiple times, the aliens will be able to do some string matching and image interpretation, and deduce what some of the words mean.</p>
 <p>The main goal of this message is to explain to aliens where we are inside the Milky way so they can find us. TODO: we are not there yet.</p>
 
 <h2>Message</h2>
@@ -93,6 +93,8 @@ def write_table(out_file, image, table_class):
         out_file.write('</tr>\n')
     out_file.write('</table>\n')
 
+if not os.path.exists(demo_dir):
+    os.mkdir(demo_dir)
 with open(out_path, 'w') as out_file:
     out_file.write(html_head)
     for payload in breakthrough.payload_iterator():
